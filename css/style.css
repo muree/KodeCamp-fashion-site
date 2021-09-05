@@ -150,21 +150,27 @@ header {
   color: white;
 }
 .profile {
-  padding: 50px;
+  padding-top: 40px;
 }
-.profile .profile-photo {
-  height: 500px;
+.profile .profile-lady {
+  height: 700px;
+  width: 90%;
   display: flex;
-  flex-grow: 1;
+  flex-wrap: wrap;
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
 }
-.profile .profile-img {
-  background-image: url(../images/article-img.jpeg);
+.profile-lady .lady {
+  width: 300px;
 }
-
+.profile .profile-text {
+  width: 60%;
+  padding-left: 30px;
+  padding-top: 60px;
+  font-size: 1.2rem;
+}
 .spring-gallery {
   background-color: #d9b1b3;
 }
@@ -256,6 +262,8 @@ header {
   text-align: justify;
   padding: 10px;
   margin: 7px;
+  width: 25%;
+  height: 450px;
 }
 .shoe-disc .shoe-disc-text {
   text-align: left;
@@ -286,11 +294,11 @@ header {
   flex-wrap: nowrap;
 }
 .flower {
-  height: 600px;
+  height: 500px;
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
-  width: 300px;
+
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -306,10 +314,10 @@ header {
   margin: 7px;
 }
 .subscribe-row .sub-entry {
-  margin: 0 10px;
+  margin: 0 20px;
   padding-top: 100px;
   padding-bottom: 40px;
-  width: 400px;
+  width: 45%;
 }
 .sub-entry .line {
   width: 90%;
@@ -327,4 +335,56 @@ header {
   font-size: 50px;
   text-align: center;
   padding-top: 15px;
+}
+.sub-entry .subs-email,
+.sub-entry .subs-name {
+  padding: 10px 20px;
+  border: grey, 1px;
+  margin: 5px;
+  font-size: 12px;
+}
+.subscribe-form-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.subscribe .subscribe-button {
+  text-align: center;
+}
+.sub-entry .subscribe-submit {
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: unset;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info {
+  font-size: 0.8rem;
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+.logos {
+  text-align: center;
+  padding-top: 30px;
+}
+footer {
+  height: 250px;
+  width: 100%;
+  background-color: rgb(36, 35, 35);
+}
+.notes {
+  padding-top: 20px;
+  text-align: center;
+}
+.notes {
+  color: white;
+  font-size: 0.7rem;
 }
